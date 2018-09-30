@@ -7,25 +7,10 @@ excerpt: 일반적인 워드프레스 블로그 운영자가 워드프레스의 
 layout: post
 guid: http://blog.kalkin7.com/?p=209
 permalink: /2016/02/15/maximize-wordpress-cache/
-ExternalUrl:
-  - https://lh3.googleusercontent.com/-0RFCD9EGKaI/VsAs4gcn6yI/AAAAAAABvtM/NqCvEiGMVSg/s120/wordpress-cache-plugins.jpg
-jetpack-post-views-Day:
-  - "5"
-jetpack-post-views-Week:
-  - "5"
-jetpack-post-views-Month:
-  - "25"
-jetpack-post-views:
-  - "1600"
-jetpack-post-views-Year:
-  - "366"
-dsq_needs_sync:
-  - "1"
 categories:
   - 워드프레스
 tags:
-  - 워드프레스
-  - 워드프레스 플러그인
+  - wordpress
 ---
 ## 1. 워드프레스 사용자의 최대 고민 '속도'
 
