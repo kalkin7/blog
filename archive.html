@@ -1,0 +1,48 @@
+---
+layout: page
+title: 전체글
+permalink: /archive/
+tags: archive
+---
+
+<div class="py2">
+	<article id="archive">
+		<div class="archive-box">
+			<div class="archive-box-2">
+				<ul>
+				  {% for post in site.posts %}
+
+					{% unless post.next %}
+					  <li class="archive_year_list"><a href="#{{ post.date | date: '%Y' }}">{{ post.date | date: '%Y년' }}</a></li>
+					{% else %}
+					  {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+					  {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+					  {% if year != nyear %}
+						<li class="archive_year_list"><a href="#{{ post.date | date: '%Y' }}">{{ post.date | date: '%Y년' }}</a></li>
+					  {% endif %}
+					{% endunless %}
+				  {% endfor %}
+				</ul>
+			</div>
+		</div>
+		<!-- <p><div id="toc"><p class="toc_title">년도</p></div></p> -->
+		<p>
+		<ul class="archive-posts">
+		  {% for post in site.posts %}
+
+			{% unless post.next %}
+			  <h2 class="archive_year" id="{{ post.date | date: '%Y' }}">{{ post.date | date: '%Y년' }}</h2>
+			{% else %}
+			  {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+			  {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+			  {% if year != nyear %}
+				<h2 class="archive_year" id="{{ post.date | date: '%Y' }}">{{ post.date | date: '%Y년' }}</h2>
+			  {% endif %}
+			{% endunless %}
+
+			<li class="archive_post_list" data-index="{{ post.title | downcase }}"><a href="{{ post.url }}">{{ post.title }}</a>&nbsp;&nbsp;&nbsp;<small><span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%Y/%m/%d" }}</time></span></small></li>
+		  {% endfor %}
+		</ul>
+		</p>
+	</article>
+</div>

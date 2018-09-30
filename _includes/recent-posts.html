@@ -1,0 +1,11 @@
+<div class="recent_posts">
+<span class="h2">최신글</span><span class="h4"> (<a href="/archive/">전체글 보기</a>)</span>
+<ul class="recent_posts_list">  
+	{% for post in site.posts limit:5 %}  
+	   <li>  
+		   <a href="{{ BASE_PATH }}{{ post.url }}">  
+		   {{ post.title }}</a>  
+	   </li>  
+	{% endfor %}  
+</ul>
+</div>

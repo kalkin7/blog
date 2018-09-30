@@ -1,0 +1,126 @@
+# Site settings
+title:       Kalkin7
+email:       kalkin7@gmail.com
+author:      Kalkin7
+description: "kalkin7's Blog"
+baseurl:     ""
+url:         "http://blog.kalkin7.com"
+date_format: "%Y년 %-m월 %-d일"
+
+# Google services
+google_analytics:
+google_verification:
+
+# Optional features
+animated:             false
+show_related_posts:   false
+show_post_footers:    false
+show_social_icons:    false
+ajaxify_contact_form: false
+
+# Disqus post comments
+# (leave blank to disable Disqus)
+disqus_shortname: kalkin7wp
+
+# Facebook Comments plugin
+# (leave blank to disable Facebook Comments, otherwise set it to true)
+facebook_comments:
+facebook_appid:
+facebook_comments_number: 10
+
+# Social icons
+github_username:
+bitbucket_username:
+stackoverflow_id:
+twitter_username: kalkin_7
+skype_username:
+steam_nickname:
+google_plus_id:
+linkedin_username:
+angellist_username:
+medium_id:
+bitcoin_url:
+paypal_url:
+flattr_button:
+
+# Post sharing icons
+show_sharing_icons: false
+# Change to 'true' to enable individual icons
+share_facebook: true
+share_twitter: true
+share_googleplus: true
+share_linkedin: false
+share_digg: false
+share_tumblr: false
+share_reddit: false
+share_stumbleupon: false
+share_hackernews: false
+
+text:
+  pagination:
+    newer: '이전'
+    older: '다음'
+  share_buttons:
+    text:         '이글을 공유하세요!'
+    facebook:     '페이스북에 공유'
+    twitter:      '트위터에 공유'
+    googleplus:   '구글플러스에 공유'
+    linkedin:     'LinkedIn에 공유'
+    digg:         'Digg에 공유'
+    tumblr:       '텀블러에 공유'
+    reddit:       'Reddit에 공유'
+    stumbleupon:  'StumbleUpon에 공유'
+    hackernews:   'Hacker News에 공유'
+  post:
+    updated:        '갱신됨'
+    minute_read:    '분 소요'
+    related_posts:  '관련글 모음'
+  index:
+    coming_soon: 'Coming soon...'
+  contact:
+    email:    '이메일'
+    content:  '전하고 싶은 글을 입력하세요.'
+    subject:  'New submission!'
+    submit:   '전송'
+    ajax:
+      sending:  '전송중..'
+      sent:     '메시지가 전송됐습니다!'
+      error:    '오류!'
+  thanks: '감사합니다. 최대한 빨리 답장 드리겠습니다.'
+
+
+# Build settings
+markdown:     kramdown
+markdown_ext:  markdown,mkd,mkdn,md
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 2..6
+redcarpet:
+  extensions: ['smart', 'tables', 'with_toc_data']
+permalink:    /:title/
+paginate:     6
+sass:
+  style: compressed
+gems:
+  - jekyll-paginate
+  - jekyll-sitemap
+#  - jekyll-seo-tag
+  
+# https://github.com/jekyll/jekyll/issues/2938
+exclude: ['vendor', 'node_modules', 'CNAME', 'Gemfile', 'Rakefile', 'deploy.bat', 'jekyll watch.bat', 'gulp penthouse.bat', 'gulpfile.js', 'package.json', '.gitignore', 'README.md', 'LICENSE.txt']
+
+ftp_host: 'knote.nflint.com'
+ftp_dir: '/html/blog'
+ftp_passive: false
+
+# optional
+ftp_port: 21                  # default 21
+ftp_username: 'knote'     # default read from stdin
+ftp_password: 'nfl1014hscint' # default read from stdin
+ftp_secure: false              # default false
+
+
+timezone: Asia/Seoul
+encoding: utf-8
