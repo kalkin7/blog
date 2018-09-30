@@ -21,9 +21,9 @@ tags:
 
 워드프레스의 특성 이미지(Featured Image)는 글이나 페이지를 대표하는 이미지를 의미한다. 특성 이미지가 어떻게 표현되는 지는 테마에 따라 달라진다. 어떤 테마에서는 홈페이지[^1]에 글목록 앞에 작은 썸네일을 보여주는 식으로 나타나고, 어떤 테마에서는 글의 최상단에 크게 보여지기도 한다.
 
-![특성 이미지가 홈페이지에 썸네일 형식으로 보여지는 예시](http://lh6.googleusercontent.com/-MmeN3m3GI40/UwJM4oCNGZI/AAAAAAABj1o/yudmDXg7NRg/s730/Wordpress-Featured-Image-Using-External-Links-11.jpg) <small>▲ 특성 이미지가 홈페이지에 썸네일 형식으로 보여지는 예시 - 출처: [서울비 블로그](http://seoulrain.net)</small>
+![특성 이미지가 홈페이지에 썸네일 형식으로 보여지는 예시](https://lh6.googleusercontent.com/-MmeN3m3GI40/UwJM4oCNGZI/AAAAAAABj1o/yudmDXg7NRg/s730/Wordpress-Featured-Image-Using-External-Links-11.jpg) <small>▲ 특성 이미지가 홈페이지에 썸네일 형식으로 보여지는 예시 - 출처: [서울비 블로그](http://seoulrain.net)</small>
 
-![특성 이미지가 홈페이지에 썸네일 형식으로 보여지는 예시](http://lh4.googleusercontent.com/-XRQLRtOsJaM/UwJNR83mX_I/AAAAAAABj1w/ZbAB1aOxAJo/s730/Wordpress-Featured-Image-Using-External-Links-12.jpg) <small>▲ 특성 이미지가 글의 최상단에 보여지는 예시</small>
+![특성 이미지가 홈페이지에 썸네일 형식으로 보여지는 예시](https://lh4.googleusercontent.com/-XRQLRtOsJaM/UwJNR83mX_I/AAAAAAABj1w/ZbAB1aOxAJo/s730/Wordpress-Featured-Image-Using-External-Links-12.jpg) <small>▲ 특성 이미지가 글의 최상단에 보여지는 예시</small>
 
 
 
@@ -51,9 +51,9 @@ tags:
 
 	위의 코드는 보통 index.php, content.php 또는 archive.php에서 찾을 수 있다. 만약에 파일을 하나하나 열어서 찾는 것이 힘들다면, notepad++등의 에디터를 이용해서 테마 폴더에 있는 php 파일을 모두 불러온 후, 모든 파일에 대해서 검색을 하는 것이 편할 수 있다.
 	
-	![Notepad++에서 \<\?php the_post_thumbnail(); ?\> 검색하기](http://lh3.googleusercontent.com/-4Mdqu7gsuZs/UwIxFT5T-SI/AAAAAAABj0g/tWhbnWlAiBg/s0/Wordpress-Featured-Image-Using-External-Links-01.png) <small>▲ Notepad++에서 `<?php the_post_thumbnail(); ?>` 검색하기</small>
+	![Notepad++에서 \<\?php the_post_thumbnail(); ?\> 검색하기](https://lh3.googleusercontent.com/-4Mdqu7gsuZs/UwIxFT5T-SI/AAAAAAABj0g/tWhbnWlAiBg/s0/Wordpress-Featured-Image-Using-External-Links-01.png) <small>▲ Notepad++에서 `<?php the_post_thumbnail(); ?>` 검색하기</small>
 	
-	![Notepad++에서 \<\?php the_post_thumbnail(); ?\> 검색 결과](http://lh4.googleusercontent.com/-i_FcGnNLXQY/UwIxoHK5n4I/AAAAAAABj0o/IOmTjyePzqE/s0/Wordpress-Featured-Image-Using-External-Links-02.png) <small>▲ Notepad++에서 `<?php the_post_thumbnail(); ?>` 검색했을 때의 결과</small>
+	![Notepad++에서 \<\?php the_post_thumbnail(); ?\> 검색 결과](https://lh4.googleusercontent.com/-i_FcGnNLXQY/UwIxoHK5n4I/AAAAAAABj0o/IOmTjyePzqE/s0/Wordpress-Featured-Image-Using-External-Links-02.png) <small>▲ Notepad++에서 `<?php the_post_thumbnail(); ?>` 검색했을 때의 결과</small>
     
 2. **`<?php the_post_thumbnail(); ?>` 을 다음의 코드로 바꾼다.**
 
@@ -211,15 +211,15 @@ tags:
 
 1. **워드프레스 에디터의 화면 옵션에서 "사용자 정의 필드"를 체크해서 "사용자 정의 필드" 메타 박스가 보이게 한다.**
 
-    ![워드프레스 에디터의 화면 옵션에서 "사용자 정의 필드" 활성화하기](http://lh6.googleusercontent.com/-C5UxpiYQsIo/UwIx32do2lI/AAAAAAABj0w/eUQuowRqJO4/s730/Wordpress-Featured-Image-Using-External-Links-03.png) <small>▲ 워드프레스 에디터의 화면 옵션에서 "사용자 정의 필드" 활성화하기</small>
+    ![워드프레스 에디터의 화면 옵션에서 "사용자 정의 필드" 활성화하기](https://lh6.googleusercontent.com/-C5UxpiYQsIo/UwIx32do2lI/AAAAAAABj0w/eUQuowRqJO4/s730/Wordpress-Featured-Image-Using-External-Links-03.png) <small>▲ 워드프레스 에디터의 화면 옵션에서 "사용자 정의 필드" 활성화하기</small>
 
 2. **"사용자 정의 필드" 메타 박스에 위의 코드에서 정의한 "ExternalUrl"을 추가하고 그 값에는 그 글에 넣길 원하는 특성 이미지의 외부 링크를 입력한다.**
     
-    ![워드프레스 에디터에서 사용자 정의 필드 추가](http://lh4.googleusercontent.com/-IiPPjB_JwCk/UwIyacAE1NI/AAAAAAABj04/FpC2yZzl9uo/s0/Wordpress-Featured-Image-Using-External-Links-04.png) <small>▲ 워드프레스 에디터에서 사용자 정의 필드 추가</small>
+    ![워드프레스 에디터에서 사용자 정의 필드 추가](https://lh4.googleusercontent.com/-IiPPjB_JwCk/UwIyacAE1NI/AAAAAAABj04/FpC2yZzl9uo/s0/Wordpress-Featured-Image-Using-External-Links-04.png) <small>▲ 워드프레스 에디터에서 사용자 정의 필드 추가</small>
     
-    ![워드프레스 에디터에서 사용자 정의 필드 추가](http://lh6.googleusercontent.com/-W4mmCy53vxQ/UwIy0ryFgtI/AAAAAAABj1A/niku1ohitf8/s0/Wordpress-Featured-Image-Using-External-Links-05.png) <small>▲ 사용자 정의 필드 이름에 "ExternalUrl"을 입력하고, 값란에 특성 이미지(Featured Image)로 사용할 이미지의 외부 링크 주소를 입력한 후 "사용자 정의 필드 추가" 버튼을 눌러준다.</small>
+    ![워드프레스 에디터에서 사용자 정의 필드 추가](https://lh6.googleusercontent.com/-W4mmCy53vxQ/UwIy0ryFgtI/AAAAAAABj1A/niku1ohitf8/s0/Wordpress-Featured-Image-Using-External-Links-05.png) <small>▲ 사용자 정의 필드 이름에 "ExternalUrl"을 입력하고, 값란에 특성 이미지(Featured Image)로 사용할 이미지의 외부 링크 주소를 입력한 후 "사용자 정의 필드 추가" 버튼을 눌러준다.</small>
     
-    ![워드프레스 에디터에서 사용자 정의 필드 선택](http://lh4.googleusercontent.com/-S-sSZkGEmIM/UwI0r75yWeI/AAAAAAABj1Q/vrhSlsbNMYI/s0/Wordpress-Featured-Image-Using-External-Links-06.png) <small>▲ 한 번 "ExternalUrl" 사용자 정의 필드를 입력하면, 다음부터는 사용자 정의 필드를 추가할 때 선택하기를 눌러서 "ExternalUrl"을 선택할 수 있게된다.</small>
+    ![워드프레스 에디터에서 사용자 정의 필드 선택](https://lh4.googleusercontent.com/-S-sSZkGEmIM/UwI0r75yWeI/AAAAAAABj1Q/vrhSlsbNMYI/s0/Wordpress-Featured-Image-Using-External-Links-06.png) <small>▲ 한 번 "ExternalUrl" 사용자 정의 필드를 입력하면, 다음부터는 사용자 정의 필드를 추가할 때 선택하기를 눌러서 "ExternalUrl"을 선택할 수 있게된다.</small>
     
 5. **이제 글을 작성 완료하면 외부 이미지가 특성 이미지로 보여지게 될 것이다.**
 

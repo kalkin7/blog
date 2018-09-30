@@ -59,12 +59,12 @@ Markdown에 대해 좀 더 자세히 알고 싶으면 다름 링크를 참조하
 ## 3. Mytory Markdown 플러그인 사용법
 ### 3.1 플러그인 설치
 워드프레스 대시보드에서 "플러그인 ⇒ 플러그인 추가하기"로 들어가서 "Mytory Markdown"을 입력해서 검색한 후 플러그인을 설치한다.     
-![Mytory Markdown 플러그인 검색](http://lh4.googleusercontent.com/-0XE_a92jizA/UseR-EgQToI/AAAAAAABi_I/06zwu_bPsW8/s0/Mytory-Markdown-Plugin-02.png)    
-![Mytory Markdown 플러그인 검색](http://lh3.googleusercontent.com/-rFhulAd3BYM/UseR-DBLQuI/AAAAAAABi_E/A6vH9h5i8LI/s0/Mytory-Markdown-Plugin-03.png)
+![Mytory Markdown 플러그인 검색](https://lh4.googleusercontent.com/-0XE_a92jizA/UseR-EgQToI/AAAAAAABi_I/06zwu_bPsW8/s0/Mytory-Markdown-Plugin-02.png)    
+![Mytory Markdown 플러그인 검색](https://lh3.googleusercontent.com/-rFhulAd3BYM/UseR-DBLQuI/AAAAAAABi_E/A6vH9h5i8LI/s0/Mytory-Markdown-Plugin-03.png)
 
 ### 3.2 플러그인을 활성화
 플러그인을 설치하고 나면 플러그인을 바로 활성화할 수 있는 창이 뜬다. 거기에서 플러그인을 활성화한다.   
-![Mytory Markdown 플러그인 활성화](http://lh4.googleusercontent.com/-VxcViRGw29w/UseR-JsYAaI/AAAAAAABi-g/nh7Oih5yzBs/s0/Mytory-Markdown-Plugin-04.png)
+![Mytory Markdown 플러그인 활성화](https://lh4.googleusercontent.com/-VxcViRGw29w/UseR-JsYAaI/AAAAAAABi-g/nh7Oih5yzBs/s0/Mytory-Markdown-Plugin-04.png)
 
 ### 3.3. Markdown 파일 작성후, 드롭박스의 퍼블릭 폴더에 저장
 선호하는 에디터를 이용해서 Markdown으로 글을 작성한 후, 드롭박스의 퍼블릭 폴더에 저장한다. <del>만약 최근에 드롭박스에 가입해서 퍼블릭 폴더 기능이 비활성화되어 있다면 다음 링크를 참조하여 퍼블릭 폴더 기능을 활성화한다.</del>
@@ -75,12 +75,12 @@ Markdown에 대해 좀 더 자세히 알고 싶으면 다름 링크를 참조하
 ### 3.4 Markdown 파일의 공개 링크를 복사
 퍼블릭폴더 기능을 사용할 수 있으면 퍼블릭폴더 안에 있는 파일의 공개 링크는, 공개링크를 얻고자 하는 파일의 마우스 컨텍스트 메뉴에서 **공개 링크 복사**를 눌러서 쉽게 얻을 수 있다.
 
-![드롭박스 퍼블릭폴더 공개 링크 복사](http://lh3.googleusercontent.com/-bZipKfE_huo/UseR-B-PuNI/AAAAAAABi-c/OStW0VYZB44/s0/Mytory-Markdown-Plugin-05.png) <small>▲ 드롭박스 퍼블릭폴더 공개 링크 복사</small>
+![드롭박스 퍼블릭폴더 공개 링크 복사](https://lh3.googleusercontent.com/-bZipKfE_huo/UseR-B-PuNI/AAAAAAABi-c/OStW0VYZB44/s0/Mytory-Markdown-Plugin-05.png) <small>▲ 드롭박스 퍼블릭폴더 공개 링크 복사</small>
 
 만약에 퍼블릭폴더 기능을 사용할 수 없는 사용자라면 다음 방법으로 공개 링크 주소를 얻을 수 있다.
 
 **1\.** 직접 링크를 얻을 파일의 마우스 컨텍스트 메뉴에서 **Dropbox 링크 공유**를 클릭한다.
-![드롭박스 링크 공유 컨텍스트 메뉴](http://lh5.googleusercontent.com/-qEIkzk4VO2o/U6pR9F2KehI/AAAAAAABpkE/yBSYANe8lL8/s0/Dropbox-Share-Link.png) <small>▲ 드롭박스 링크 공유</small>
+![드롭박스 링크 공유 컨텍스트 메뉴](https://lh5.googleusercontent.com/-qEIkzk4VO2o/U6pR9F2KehI/AAAAAAABpkE/yBSYANe8lL8/s0/Dropbox-Share-Link.png) <small>▲ 드롭박스 링크 공유</small>
 
 **2\.** 그러면 **"https://www.dropbox.com/s/p6flqrqcq8g1cm2/파일명"** 과 같은 식의 링크 주소가 클립보드에 복사된다.
 
@@ -88,10 +88,10 @@ Markdown에 대해 좀 더 자세히 알고 싶으면 다름 링크를 참조하
 
 ### 3.5 Mytory Markdown 플러그인을 이용한 글 작성
 워드프레스 대시보드에서 **"글 ⇒ 새 글 쓰기"**로 들어가서 새 글을 작성한다. Mytory Mytory 플러그인이 활성화된 상태라면 워드프레스 에디터 아래에 Mytory Markdown 메타박스가 생성되어 있을 것이다. 그곳에 드롭박스 공개 링크를 붙여넣고, **"Update Editor Content"** 버튼을 누른다.
-![Mytory Markdown 플러그인에 정보 입력](http://lh3.googleusercontent.com/-edRhLhzLhTA/UseR-pKZnNI/AAAAAAABi-k/-w0AyCnHTFo/s0/Mytory-Markdown-Plugin-06.png)
+![Mytory Markdown 플러그인에 정보 입력](https://lh3.googleusercontent.com/-edRhLhzLhTA/UseR-pKZnNI/AAAAAAABi-k/-w0AyCnHTFo/s0/Mytory-Markdown-Plugin-06.png)
 
 ### 3.6 임시글로 저장하기, 또는 공개하기를 누른다.
-![Mytory Markdown 플러그인을 통해 글 작성](http://lh6.googleusercontent.com/-GYD3wQ7UYVc/UseR-1R_KTI/AAAAAAABi-s/9sVCJmrYLYI/s0/Mytory-Markdown-Plugin-07.png)    
+![Mytory Markdown 플러그인을 통해 글 작성](https://lh6.googleusercontent.com/-GYD3wQ7UYVc/UseR-1R_KTI/AAAAAAABi-s/9sVCJmrYLYI/s0/Mytory-Markdown-Plugin-07.png)    
 글이 워드프레스 에디터에 자동으로 입력되었으면, Slug(고유주소), 카테고리, 태그등의 기타 옵션을 지정한다. 그 후에는, 글이 완성되지 않은 경우 임시글로 저장하고, 글이 완성된 경우 공개하기를 눌러서 글을 공개하면 된다.
 
 ### 3.7 글 업데이트

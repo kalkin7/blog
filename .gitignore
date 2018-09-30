@@ -2,6 +2,12 @@ _site
 .sass-cache
 .DS_Store
 node_modules
+deploy.bat
+git_blog_update.bat
+git_pull.bat
+git_push.bat
+gulp penthouse.bat
+jekyll watch.bat
 
 # Ignore the config file that's used for gh-pages.
 _config.gh-pages.yml
