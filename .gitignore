@@ -4,6 +4,7 @@ _site
 node_modules
 deploy.bat
 git_blog_update.bat
+git_blog_maintain.bat
 git_pull.bat
 git_push.bat
 gulp penthouse.bat
