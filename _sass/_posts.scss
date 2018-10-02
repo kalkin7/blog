@@ -20,6 +20,10 @@
   color: #333;
 }
 
+.post-title {
+  font-size: $h1;
+}
+
 .post-footer {
   @extend .italic;
 
